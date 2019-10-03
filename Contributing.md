@@ -37,6 +37,11 @@ install the Gulp dependencies
 npm i
 ```
 
+start the Jekyll server
+```bash
+bundle exec jekyll serve
+```
+
 `Gulpfile` has two main tasks: `build` and `watch`
 
 `build` does just that - builds the `_site` directory.
